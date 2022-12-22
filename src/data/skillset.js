@@ -6,7 +6,7 @@ export default [
     },
     {
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLnWer-dVvgxiJdFviOcgUPyF9FRGt4SKSDg&usqp=CAU",
-        name:"Competitive Programming & DSA",
+        name:"Competitive Programming",
         detail:"I've been interested in CP since my first year of college. I've spent a significant amount of time honing my problem-solving abilities through CP and DSA. Check out my profiles. Link's on the page;)"
     },
     {
