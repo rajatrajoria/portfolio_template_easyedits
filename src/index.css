@@ -322,10 +322,9 @@ body{
 }
 
 .skillset-card > img{
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   margin-bottom: 10px;
-  border-radius: 100px;
 }
 
 .skillset-card > h3{
@@ -374,23 +373,6 @@ body{
     padding: 10px;
     height: auto;
     width: 80vw;
-  }
-  
-  .skillset-card > img{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 10px;
-    border-radius: 100px;
-  }
-  
-  .skillset-card > h3{
-    margin-bottom: 10px;
-  }
-  
-  .skillset-card > p{
-    color: #b7b7bb ;
-    font-weight: 300;
-    font-size: 0.8rem;
   }
 }
 
