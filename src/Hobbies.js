@@ -18,7 +18,7 @@ export default function Education(){
         }
         else{
             return(
-                <div className="hobby-container">
+                <div className="hobby-container" id="hobbies">
                     <img src={element.image}/>
                     <div className="hobby-container-text">
                         <h1>{element.name}</h1>

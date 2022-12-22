@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Intro(props){
     return(
-        <div className="intro-container">
+        <div className="intro-container" id="intro">
             <img src={props.myimg}/>
             <div className="intro-container-about">
                 <p>

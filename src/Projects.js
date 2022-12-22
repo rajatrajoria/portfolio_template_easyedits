@@ -12,7 +12,7 @@ export default function Projects(){
         );
     });
     return(
-        <div className="projects-container">
+        <div className="projects-container" id="projects">
             <div className="projects-container-cover">
                 <h4> PROJECTS </h4>
                 <h1> Some of my projects...</h1>

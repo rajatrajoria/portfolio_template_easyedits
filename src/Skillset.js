@@ -12,7 +12,7 @@ export default function Skillset(){
         );
     })
     return(
-        <div className="skillset-container">
+        <div className="skillset-container" id="skillset">
             <div className="skillset-container-cover">
                 <h1>Skillsets</h1>
                 <p>A Sneak peek into my skillsets. These fields really interests me a lot. I might not be very professional in these but I have always believed that if you have that resolutness in you, there's nothing that can stop you.<br/>You are your very own Porsche...<br/>
