@@ -11,7 +11,7 @@ export default[
     },
     {
         image: "https://burst.shopifycdn.com/photos/video-game-controller-top.jpg?width=1200&format=pjpg&exif=1&iptc=1",
-        name: "Video Games",
+        name: "Gaming",
         detail: "I've been interested in video games since I was a child. I've tried it all: PlayStation, Xbox, and Oculus VR. Gaming evenings are always a hit with me!!"
     }
 ]
