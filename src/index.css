@@ -1,6 +1,8 @@
+
 *{
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; */
 }
 body{
   margin: 0;
@@ -9,6 +11,9 @@ body{
   background-image: linear-gradient(to right,hsl(240,19%,12%) , hsl(250,19%,10%));
   font-family: 'Poppins', sans-serif;
 }
+
+/**************************************Navbar*************************************/
+
 .navbar-container{
   display: flex;
   height: 125px;
@@ -46,14 +51,18 @@ body{
   margin: 4px;
   cursor: pointer;
   color: #b7b7bb;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .navbar-container-contents-holder > ul > li > a:hover{
   color: #0cede6;
 }
 
-/* Intro Section */
+@media only screen and (max-width: 840px){
+
+}
+
+/************************************* Intro Section ********************************************/
 
 .intro-container{
   display: flex;
@@ -68,7 +77,6 @@ body{
 .intro-container-about{
   color: white;
   font-family: 'Lekton', sans-serif;
-  
 }
 .intro-container-about > p{
   font-size: 3rem;
@@ -86,7 +94,33 @@ body{
   padding-right: 5px;
 }
 
-/****************************Education Section*************************************/
+@media only screen and (max-width: 840px)
+{
+  .intro-container{
+    display: block;
+  }
+  .intro-container > img{
+    width: 100%;
+    /* height: 500px; */
+  }
+  .intro-container-about > p{
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-left: 4rem;
+    padding-top: 20px;
+  }
+  .intro-container-about > h4{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    line-height: 20px;  
+    font-size: 1.2rem;
+    padding: 20px 4rem 20px 4rem;
+    margin-bottom: 20px;
+  }
+}
+
+/****************************************Education Section*************************************/
 
 .education-container{
   background-color: black;
@@ -109,13 +143,16 @@ body{
 .education-container-cards{
   color: white;
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
-  margin-left: 4rem;
+  padding-left: 4rem;
+  justify-content: flex-start;
 }
 
 .education-container-cards > .institution-card{
   padding: 10px;
-  width: 30vw;
+  width: 25vw;
+  min-width: 200px;
 }
 
 .education-container-cards > .institution-card > .institution-id{
@@ -146,7 +183,36 @@ body{
   font-weight: 200;
 }
 
-/*****************************Philosophy and values**************************************/
+@media only screen and (max-width: 840px)
+{
+  .education-container-cover > h4{
+    margin-left: 2rem;
+    padding-top: 80px;
+  }
+  
+  .education-container-cover > h1{
+    margin-left: 2rem;
+    padding-bottom: 20px;
+  }
+  
+  .education-container-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 0rem;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 80px;
+  }
+  
+  .education-container-cards > .institution-card{
+    padding: 10px;
+    width: 80vw;
+    min-width: 200px;
+  }
+}
+
+/*********************************************Philosophy and values**************************************/
 .philosophy-container{
   display: flex;
   min-height: 100vh;
@@ -163,11 +229,11 @@ body{
 
 .philosophy-container-text > h1{
   font-family: 'Space Mono', monospace;
-  font-size: 3vw;
+  font-size: 1.8rem; 
 }
 .philosophy-container-text > p{
   padding: 20px;
-  padding-left: 35px;;
+  padding-left: 35px;
   font-weight: 300;
   line-height: 1.5rem;
 }
@@ -179,6 +245,29 @@ body{
   width: 55vw;
 }
 
+@media only screen and (max-width: 840px){
+  .philosophy-container{
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .philosophy-container-text{
+    width: 100%;
+    min-height: 70vh;
+  }
+  
+  .philosophy-container-text > p{
+    padding: 20px;
+    padding-left: 35px;
+    font-weight: 300;
+    line-height: 1.5rem;
+  }
+  
+  .philosophy-container > img{
+    width: 100%;
+    height: 70vh;
+  }
+}
 
 
 /********************************************Skill Sets*********************************************/
@@ -199,7 +288,7 @@ body{
   color: white;
   font-family: 'Space Mono', monospace;
   margin-bottom: 25px;
-  font-size: 3vw;
+  font-size: 1.8rem;
   margin-left: 2.5vw;
 }
 .skillset-container-cover > p{
@@ -247,12 +336,67 @@ body{
   font-size: 0.8rem;
 }
 
+@media only screen and (max-width: 840px){
+  .skillset-container{
+    flex-direction: column;
+  }
+  .skillset-container-cover{
+    width: 100%;
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .skillset-container-cover > h1{
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+  }
+  .skillset-container-cover > p{
+    padding: 2rem;
+    line-height: 1.5rem;
+  } 
+  
+  .skillset-container-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px;
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center
+  }
+  
+  .skillset-card{
+    color: white;
+    padding: 10px;
+    height: auto;
+    width: 80vw;
+  }
+  
+  .skillset-card > img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+  }
+  
+  .skillset-card > h3{
+    margin-bottom: 10px;
+  }
+  
+  .skillset-card > p{
+    color: #b7b7bb ;
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+}
 
+/*************************************************Projects*******************************************/
 
-/**************************************Projects***************************/
 .projects-container{
-  /* background-color: rgb(44, 41, 41); */
   min-height: 110vh;
+  background-color: black;
 }
 
 .projects-container-cover > h4{
@@ -278,12 +422,14 @@ body{
 }
 .project-card{
   width: 25vw;
+  background-color: #181823 ;
+  border-radius: 30px;
 }
 .project-card > img{
   width: 100%;
   display: flex;
   margin-bottom: 10px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 .project-card > h3{
   color: white;
@@ -292,12 +438,60 @@ body{
 }
 .project-card > h5{
   color: #b7b7bb;
-  font-weight: 200;
+  font-weight: 300;
   padding: 10px;
   line-height: 1.2rem;
 }
 
-/***********************************Hobbies**************************************/
+@media only screen and (max-width: 840px){
+  .projects-container{
+    min-height: 110vh;
+  }
+  
+  .projects-container-cover > h4{
+    letter-spacing: 3px;
+    margin-left: 2rem;
+    padding-top:  80px;
+  }
+  
+  .projects-container-cover > h1{
+    margin-left: 2rem;
+    padding-bottom: 20px;
+  }
+  
+  .projects-container-cards{
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 5px;
+    margin: 0;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+  }
+  .project-card{
+    width: 85vw;
+  }
+  .project-card > img{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .project-card > h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .project-card > h5{
+    color: #b7b7bb;
+    font-weight: 300;
+    padding-bottom: 10px;
+    line-height: 1.2rem;
+  }
+}
+
+/**************************************************Hobbies************************************************/
 .hobbies-container-full{
   display: flex;
   flex-direction: column;
@@ -332,7 +526,7 @@ body{
   border-radius: 20px;
 }
 .hobbies-container{
-  background-color: black;
+  background-color: rgba(45, 2, 54, 0.553);
 }
 .hobbies-container-cover > h4{
   color: gray;
@@ -345,4 +539,55 @@ body{
   color: white;
   margin-left: 4rem;
   font-family: 'Space Mono', monospace;
+}
+
+@media only screen and (max-width: 840px){
+  .hobbies-container-full{
+    padding: 20px;
+    gap: 35px;
+  }
+  .hobby-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .hobby-container-text{
+    background-color: #fff3e4;
+    display: flex;
+    width: 85vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .hobby-container-text > p{
+    padding: 10px;
+    padding: 0px 15px 10px 15px;
+    font-weight: 300;
+    line-height: 1.5rem;
+  }
+  .hobby-container > img{
+    width: 85vw;
+    border-radius: 0px;
+    max-height: 300px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .hobbies-container{
+    background-color: rgba(45, 2, 54, 0.553);
+  }
+  .hobbies-container-cover > h4{
+    color: gray;
+    letter-spacing: 3px;
+    margin-left: 2rem;
+    padding-top: 40px;
+  }
+  
+  .hobbies-container-cover > h1{
+    color: white;
+    margin-left: 2rem;
+    font-family: 'Space Mono', monospace;
+  }
 }
