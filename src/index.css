@@ -187,12 +187,13 @@ body{
   display: flex;
   background-color: black;
   min-height: 100vh;
-  border-bottom: 1px dotted white;
+  /* border-bottom: 0.1px dotted white; */
 }
 
 .skillset-container-cover{
   width: 35vw;
   padding: 40px 20px 20px 20px;
+  background-color: rgb(21, 21, 21);
 }
 .skillset-container-cover > h1{
   color: white;
@@ -219,7 +220,7 @@ body{
   gap:15px;
   padding: 40px 20px 20px 20px;
   justify-content: flex-start;
-  border-left: 1px dotted white;
+  /* border-left: 1px dotted white; */
 }
 
 .skillset-card{
@@ -249,10 +250,9 @@ body{
 
 
 /**************************************Projects***************************/
-
 .projects-container{
-  background-color: black;
-  min-height: 100vh;
+  /* background-color: rgb(44, 41, 41); */
+  min-height: 110vh;
 }
 
 .projects-container-cover > h4{
@@ -297,5 +297,52 @@ body{
   line-height: 1.2rem;
 }
 
+/***********************************Hobbies**************************************/
+.hobbies-container-full{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.hobby-container{
+  display: flex;
+  gap: 10px;
+}
+.hobby-container-text{
+  background-color: #fff3e4;
+  display: flex;
+  width: 45vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.hobby-container-text > h1{
+  font-family: 'Space Mono', monospace;
+}
+.hobby-container-text > p{
+  padding: 20px;
+  padding-left: 55px;;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+.hobby-container > img{
+  width: 45vw;
+  border-radius: 20px;
+}
+.hobbies-container{
+  background-color: black;
+}
+.hobbies-container-cover > h4{
+  color: gray;
+  letter-spacing: 3px;
+  margin-left: 4rem;
+  padding-top: 100px;
+}
 
-
+.hobbies-container-cover > h1{
+  color: white;
+  margin-left: 4rem;
+  font-family: 'Space Mono', monospace;
+}

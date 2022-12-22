@@ -5,6 +5,7 @@ import Education from "./Education"
 import Philosophy from "./Philosophy"
 import Skillset from "./Skillset"
 import Projects from "./Projects"
+import Hobbies from "./Hobbies"
 
 export default function App(){
     return(
@@ -15,6 +16,7 @@ export default function App(){
             <Philosophy text="Everyone, I believe, want the same thing: a connect with mankind, metaphysical serenity, and cosmic experience. I strive to comprehend these concepts via my principles of sincerity, originality, and generosity." img="https://e0.pxfuel.com/wallpapers/78/907/desktop-wallpaper-autumn-forest-rivers-docks-serene-scenery-widescreen-high-definition-fullscreen.jpg"/>
             <Skillset/>
             <Projects/>
+            <Hobbies/>
         </div>
     );
 }
