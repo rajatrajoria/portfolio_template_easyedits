@@ -38,7 +38,7 @@
     
     .philosophy-container-text{
       width: 100%;
-      min-height: 70vh;
+      min-height: 50vh;
     }
     
     .philosophy-container-text > p{
@@ -50,7 +50,7 @@
     
     .philosophy-container > img{
       width: 100%;
-      height: 70vh;
+      height: 50vh;
     }
   }
   

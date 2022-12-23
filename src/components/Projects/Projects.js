@@ -8,7 +8,7 @@ export default function Projects(){
             <div className="project-card">
                 <img src={element.image}/>
                 <h3>{element.name}</h3>
-                <h5>{element.detail}</h5>
+                <p>{element.detail}</p>
             </div>
         );
     });
