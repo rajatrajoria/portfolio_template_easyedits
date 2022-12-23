@@ -1,0 +1,32 @@
+.tools-container{
+    min-height: 100vh;
+    background-color: black;
+    padding-bottom: 20px;
+  }
+  
+  .tools-container-cover > h4{
+    color: gray;
+    letter-spacing: 3px;
+    margin-left: 4rem;
+    padding-top: 100px;
+  }
+  
+  .tools-container-cover > h1{
+    color: white;
+    margin-left: 4rem;
+    font-family: 'Space Mono', monospace;
+  }
+
+
+  @media only screen and (max-width: 840px){
+    
+    .tools-container-cover > h4{
+      margin-left: 2rem;
+      padding-top:  60px;
+    }
+    
+    .tools-container-cover > h1{
+      margin-left: 2rem;
+      padding-bottom: 20px;
+    }
+}

@@ -6,6 +6,7 @@ import Philosophy from "./components/Philosophy/Philosophy"
 import Skillset from "./components/Skillset/Skillset"
 import Projects from "./components/Projects/Projects"
 import Hobbies from "./components/Hobbies/Hobbies"
+import Tools from "./components/Tools/Tools"
 
 export default function App(){
     return(
@@ -17,6 +18,7 @@ export default function App(){
             <Skillset/>
             <Projects/>
             <Hobbies/>
+            <Tools/>
         </div>
     );
 }

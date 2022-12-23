@@ -67,7 +67,6 @@
     .projects-container-cards{
       flex-wrap: nowrap;
       gap: 35px;
-      padding-bottom: 5px;
       margin: 0;
       margin-top: 20px;
       justify-content: flex-start;
