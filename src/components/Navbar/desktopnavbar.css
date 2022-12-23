@@ -34,7 +34,7 @@
 }
 .desktopnavbar-container-contents-holder > ul > li > a{
   text-decoration: none;
-  padding: 10px;
+  padding: 20px;
   margin: 4px;
   cursor: pointer;
   color: #b7b7bb;
@@ -43,6 +43,16 @@
 
 .desktopnavbar-container-contents-holder > ul > li > a:hover{
   color: #0cede6;
+}
+
+.desktopncch-contacts{
+  background-color: #4915e5;
+  color: white;
+  border-radius: 15px;
+}
+.desktopnavbar-container-contents-holder > ul > li > .desktopncch-contacts:hover{
+  color: white;
+  background-color: #21076e
 }
 
 @media only screen and (max-width: 840px){

@@ -14,7 +14,7 @@ export default function DesktopNavbar(){
                         <li><a href="#education">Education</a></li>
                         <li><a href="#skillset">Skills</a></li>
                         <li><a href="#projects" >Projects</a></li>
-                        <li><a href="" className="ncch-contacts">Contact</a></li>
+                        <li><a href="" className="desktopncch-contacts">Contact</a></li>
                     </ul>
                 </div>
             </div>
