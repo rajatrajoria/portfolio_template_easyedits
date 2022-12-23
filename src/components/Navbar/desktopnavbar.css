@@ -1,0 +1,52 @@
+.desktopnavbar-container{
+  display: flex;
+  height: 125px;
+  align-items: center;
+}
+.desktopnavbar-container-name{
+  width: 25vw;
+  min-width: 250px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
+  padding: 5px;
+  background-color: black;
+  font-family: 'Space Mono', monospace;
+}
+.desktopnavbar-container-contents{
+    width: 75vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.desktopnavbar-container-contents-holder{
+  display: inline-block;
+  margin-right: 35px;
+}
+.desktopnavbar-container-contents-holder > ul{
+  display: flex;
+  list-style: none;
+}
+.desktopnavbar-container-contents-holder > ul > li > a{
+  text-decoration: none;
+  padding: 10px;
+  margin: 4px;
+  cursor: pointer;
+  color: #b7b7bb;
+  font-size: 1.1rem;
+}
+
+.desktopnavbar-container-contents-holder > ul > li > a:hover{
+  color: #0cede6;
+}
+
+@media only screen and (max-width: 840px){
+  .desktopnavbar-container{
+    display: none;
+  }
+}
