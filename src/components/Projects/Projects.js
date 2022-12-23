@@ -1,5 +1,6 @@
 import React from "react"
-import projects from "./data/projects"
+import './projects.css'
+import projects from "../../data/projects"
 
 export default function Projects(){
     const projectElement = projects.map(element=>{

@@ -1,4 +1,5 @@
 import React from "react";
+import './philosophy.css'
 
 export default function Philosophy(props){
     return(

@@ -1,0 +1,100 @@
+.skillset-container{
+    display: flex;
+    background-color: black;
+    min-height: 100vh;
+  }
+  
+  .skillset-container-cover{
+    width: 35vw;
+    padding: 40px 20px 20px 20px;
+    background-color: rgb(21, 21, 21);
+  }
+  .skillset-container-cover > h1{
+    color: white;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    margin-left: 2.5vw;
+  }
+  .skillset-container-cover > p{
+    color: #b7b7bb;
+    padding: 20px;
+    font-weight: 300;
+    line-height: 1.5rem;
+  } 
+  .skillset-container-cover > p > span{
+    font-weight: 200;
+    color: wheat;
+  }
+  
+  .skillset-container-cards{
+    width: 65vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    padding: 40px 20px 20px 20px;
+    justify-content: flex-start;
+    /* border-left: 1px dotted white; */
+  }
+  
+  .skillset-card{
+    color: white;
+    padding: 10px;
+    height: 250px;
+    width: 20vw;
+  }
+  
+  .skillset-card > img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .skillset-card > h3{
+    margin-bottom: 10px;
+  }
+  
+  .skillset-card > p{
+    color: #b7b7bb ;
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+  
+  @media only screen and (max-width: 840px){
+    .skillset-container{
+      flex-direction: column;
+    }
+    .skillset-container-cover{
+      width: 100%;
+      padding: 0;
+      padding-top: 40px;
+      padding-bottom: 10px;
+    }
+    .skillset-container-cover > h1{
+      margin-bottom: 5px;
+      font-size: 1.5rem;
+      margin-left: 2rem;
+    }
+    .skillset-container-cover > p{
+      padding: 2rem;
+      line-height: 1.5rem;
+    } 
+    
+    .skillset-container-cards{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap:25px;
+      padding: 0;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      justify-content: center
+    }
+    
+    .skillset-card{
+      color: white;
+      padding: 10px;
+      height: auto;
+      width: 80vw;
+    }
+  }

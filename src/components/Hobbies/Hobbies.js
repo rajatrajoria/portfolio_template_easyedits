@@ -1,5 +1,6 @@
 import React from "react";
-import hobbies from "./data/hobbies.js";
+import './hobbies.css'
+import hobbies from "../../data/hobbies";
 
 export default function Education(){
     let i=0;

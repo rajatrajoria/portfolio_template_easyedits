@@ -1,0 +1,90 @@
+.education-container{
+    background-color: black;
+    min-height: 100vh;
+  }
+  
+  .education-container-cover > h4{
+    color: gray;
+    letter-spacing: 3px;
+    margin-left: 4rem;
+    padding-top: 150px;
+  }
+  
+  .education-container-cover > h1{
+    color: white;
+    margin-left: 4rem;
+    font-family: 'Space Mono', monospace;
+  }
+  
+  .education-container-cards{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 4rem;
+    justify-content: flex-start;
+  }
+  
+  .education-container-cards > .institution-card{
+    padding: 10px;
+    width: 25vw;
+    min-width: 200px;
+  }
+  
+  .education-container-cards > .institution-card > .institution-id{
+    font-size: 6rem;
+    letter-spacing: 5px;
+    color: rgb(242, 231, 209);
+    margin-bottom: 5px;
+  }
+  
+  .education-container-cards > .institution-card > .institution-name{
+    font-size: 1.4rem;
+    color: green;
+    margin-bottom: 5px;
+  }
+  
+  .education-container-cards > .institution-card > .institution-course{
+    font-size: 1rem;
+    color: blue;
+    margin-bottom: 2px;
+  }
+  .education-container-cards > .institution-card > .institution-year{
+    font-size: 0.85rem;
+    color: red;
+    margin-bottom: 5px;
+  }
+  .education-container-cards > .institution-card > .institution-detail{
+    font-size: 1rem;
+    color: white;
+    font-weight: 200;
+  }
+  
+  @media only screen and (max-width: 840px)
+  {
+    .education-container-cover > h4{
+      margin-left: 2rem;
+      padding-top: 80px;
+    }
+    
+    .education-container-cover > h1{
+      margin-left: 2rem;
+      padding-bottom: 20px;
+    }
+    
+    .education-container-cards{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding-left: 0rem;
+      justify-content: flex-start;
+      align-items: center;
+      padding-bottom: 80px;
+    }
+    
+    .education-container-cards > .institution-card{
+      padding: 10px;
+      width: 80vw;
+      min-width: 200px;
+    }
+  }

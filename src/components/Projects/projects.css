@@ -1,0 +1,96 @@
+.projects-container{
+    min-height: 110vh;
+    background-color: black;
+  }
+  
+  .projects-container-cover > h4{
+    color: gray;
+    letter-spacing: 3px;
+    margin-left: 4rem;
+    padding-top: 100px;
+  }
+  
+  .projects-container-cover > h1{
+    color: white;
+    margin-left: 4rem;
+    font-family: 'Space Mono', monospace;
+  }
+  
+  .projects-container-cards{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 4rem;
+    margin-top: 20px;
+  }
+  .project-card{
+    width: 25vw;
+    background-color: #181823;
+    border-radius: 30px;
+  }
+  .project-card > img{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    border-top-left-radius:  30px;
+    border-top-right-radius: 30px;
+  }
+  .project-card > h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .project-card > h5{
+    color: #b7b7bb;
+    font-weight: 300;
+    padding: 10px;
+    line-height: 1.2rem;
+  }
+  
+  @media only screen and (max-width: 840px){
+    .projects-container{
+      min-height: 110vh;
+    }
+    
+    .projects-container-cover > h4{
+      letter-spacing: 3px;
+      margin-left: 2rem;
+      padding-top:  80px;
+    }
+    
+    .projects-container-cover > h1{
+      margin-left: 2rem;
+      padding-bottom: 20px;
+    }
+    
+    .projects-container-cards{
+      flex-direction: column;
+      gap: 25px;
+      padding-bottom: 5px;
+      margin: 0;
+      margin-top: 20px;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 80px;
+    }
+    .project-card{
+      width: 85vw;
+    }
+    .project-card > img{
+      width: 100%;
+      display: flex;
+      margin-bottom: 10px;
+    }
+    .project-card > h3{
+      color: white;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    .project-card > h5{
+      color: #b7b7bb;
+      font-weight: 300;
+      padding-bottom: 10px;
+      line-height: 1.2rem;
+    }
+  }

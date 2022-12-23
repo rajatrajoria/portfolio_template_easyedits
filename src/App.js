@@ -1,11 +1,11 @@
 import React from "react"
-import Navbar from "./Navbar"
-import Intro from "./Intro"
-import Education from "./Education"
-import Philosophy from "./Philosophy"
-import Skillset from "./Skillset"
-import Projects from "./Projects"
-import Hobbies from "./Hobbies"
+import Navbar from "./components/Navbar/Navbar"
+import Intro from "./components/Intro/Intro"
+import Education from "./components/Education/Education"
+import Philosophy from "./components/Philosophy/Philosophy"
+import Skillset from "./components/Skillset/Skillset"
+import Projects from "./components/Projects/Projects"
+import Hobbies from "./components/Hobbies/Hobbies"
 
 export default function App(){
     return(

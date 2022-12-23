@@ -1,5 +1,6 @@
 import React from "react"
-import skillset from "./data/skillset.js"
+import './skillset.css'
+import skillset from "../../data/skillset.js"
 
 export default function Skillset(){
     const skill = skillset.map(skill=>{

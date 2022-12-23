@@ -1,5 +1,6 @@
 import React from "react";
-import educationData from "./data/educationData.js";
+import './education.css'
+import educationData from "../../data/educationData";
 
 export default function Education(){
     const educationElement = educationData.map(element=>{
