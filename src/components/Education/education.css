@@ -60,7 +60,7 @@
     font-weight: 200;
   }
   
-  @media only screen and (max-width: 840px)
+  @media only screen and (max-width: 915px)
   {
     .education-container-cover > h4{
       margin-left: 2rem;
