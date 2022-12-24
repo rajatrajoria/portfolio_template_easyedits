@@ -5,11 +5,11 @@ export default [
     startDate: 2004,
     endDate: 2017,
     course: "ICSE",
-    detail: "Percentage: 95.8%"
+    detail: "Sports and quizzes. Secured 95.8%. Finished 2nd in school."
     },
     {
     id: 2,
-    name: "Bholananda National Vidyalaya",
+    name: "Bholanada National V.",
     startDate: 2017,
     endDate: 2019,
     course: "CBSE",
@@ -21,6 +21,6 @@ export default [
     startDate: 2020,
     endDate: 2024,
     course: "B.E in Information Technology",
-    detail: "Current GPA: 9.39."
+    detail: "I'm currently in my pre-final year. The linear GPA over the four semesters is 9.39."
     }
 ]
