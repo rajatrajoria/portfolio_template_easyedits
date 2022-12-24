@@ -13,7 +13,7 @@ export default function Tools(){
     return(
         <div className="tools-container">
             <div className="tools-container-cover">
-                <h4>Technical Skills</h4>
+                <h4>TECHNICAL SKILLS</h4>
                 <h1>Some techs with which I have worked...</h1>
             </div>
             <div className="tools-container-cards">

@@ -4,6 +4,7 @@
     align-items: center;
     gap: 20px;
     padding: 20px;
+    padding-bottom: 80px;
   }
   .hobby-container{
     display: flex;
@@ -36,7 +37,7 @@
   }
   .hobbies-container-cover > h4{
     color: gray;
-    letter-spacing: 3px;
+    letter-spacing: 8px;
     margin-left: 4rem;
     padding-top: 100px;
   }
