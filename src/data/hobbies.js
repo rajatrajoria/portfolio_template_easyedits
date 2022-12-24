@@ -7,11 +7,11 @@ export default[
     {
         image: "https://www.themasterswitch.com/sites/default/files/HTC/High-End%20Headphones/KLH-Ultimate-One-L.jpg",
         name: "Music",
-        detail: "Music transports me to another world. Talk trash when wearing headphones, and I don't give a shit since I'm on to something more excellent ;). Imagine Dragons and Ed Sheeran are incredible!!!"
+        detail: "Music transports me to another world. Talk trash when I'm on headphones, & I don't give a shit since I'm on to something more peculiar;). Imagine Dragons, Ed Sheeran and Lewis Capaldi are incredible!!!"
     },
     {
         image: "https://burst.shopifycdn.com/photos/video-game-controller-top.jpg?width=1200&format=pjpg&exif=1&iptc=1",
         name: "Gaming",
-        detail: "I've been interested in video games since I was a child. I've tried it all: PlayStation, Xbox, and Oculus VR. Gaming evenings are always a hit with me!!"
+        detail: "I've been interested in video games since I was a child. I've tried it all: PlayStation, Xbox, Oculus and what not. Gaming evenings are always a hit with me! ;)"
     }
 ]

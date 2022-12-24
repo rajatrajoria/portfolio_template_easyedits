@@ -12,11 +12,11 @@ export default [
     {
         image: "https://cdn.pixabay.com/photo/2016/10/18/19/40/anatomy-1751201__480.png",
         name:"Machine Learning",
-        detail:"I am inexperienced with the area of machine learning. So far, it has been incredibly intriguing, and I'm looking forward to more of it."
+        detail:"I am a newbie to the field of Machine Learning. So far, it has been incredibly intriguing, and I'm looking forward to more of it."
     },
     {
         image: "https://cdn.pixabay.com/photo/2017/02/01/10/41/android-2029541__480.png",
         name:"Android Development",
-        detail:"Little exposure to Android Dev. Looking forward to more of it in near future."
+        detail:"Little exposure to Android Dev. Lodged with couple of cool ideas. Looking forward to more of it in near future."
     }
 ]
