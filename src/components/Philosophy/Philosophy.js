@@ -1,14 +1,14 @@
 import React from "react";
 import './philosophy.css'
-
-export default function Philosophy(props){
+import philosophy from "../../data/philosophy"
+export default function Philosophy(){
     return(
         <div className="philosophy-container" id="philosophy">
             <div className="philosophy-container-text">
                 <h1> Philosophy & Values </h1>
-                <p>{props.text}<br/><br/><span>Friends🤝. Family👨‍👩‍👧‍👦. Love❤️. $$$💰</span></p>
+                <p>{philosophy.text}<br/><br/><span>Friends🤝. Family👨‍👩‍👧‍👦. Love❤️. $$$💰</span></p>
             </div>
-            <img src={props.img}/>
+            <img src={philosophy.image}/>
         </div>
     );
 }

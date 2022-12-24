@@ -12,6 +12,7 @@ export default function DesktopNavbar(){
                 <div className="desktopnavbar-container-contents-holder">
                     <ul>
                         <li><a href="#education">Education</a></li>
+                        <li><a href="#philosophy">Values</a></li>
                         <li><a href="#skillset">Skills</a></li>
                         <li><a href="#projects" >Projects</a></li>
                         <li><a href="" className="desktopncch-contacts">Contact</a></li>
