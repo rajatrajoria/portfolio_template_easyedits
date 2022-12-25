@@ -1,0 +1,27 @@
+.footer-container{
+    color: white;
+    background-color: #47445b4c;
+    padding-top: 10px;
+}
+.footer-container-upper{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container-upper > h2{
+    font-family: 'Space Mono', monospace;
+    padding-bottom: 5px;
+    font-size: 2.2rem;
+}
+.footer-container-upper > .footer-container-upper-icons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-container-upper > .footer-container-upper-icons > img{
+    display: flex;
+    width: 30px;
+}
+
+.footer-container-lower{
+}
