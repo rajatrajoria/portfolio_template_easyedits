@@ -5,7 +5,8 @@ import './desktopnavbar.css';
 export default function DesktopNavbar(){
 
     function handler(){
-        alert('We`ll be right back...');
+        var a = window.open("https://i.giphy.com/media/3o6Ztc6didoWNy3zW0/giphy.webp");
+        setTimeout(function () { a.close() }, 1500);
     }
 
     return(

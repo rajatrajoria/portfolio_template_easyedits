@@ -8,7 +8,7 @@ export default function MobileNavbar(){
     }
     function handlerPlusAlert(){
         handler();
-        alert("We'll be right away...");
+        alert("We'll be right back...");
     }
 
     return(

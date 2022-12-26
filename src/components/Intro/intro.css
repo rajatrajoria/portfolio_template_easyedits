@@ -6,7 +6,7 @@
   
   .intro-container > img{
     width: 50vw;
-    height: 650px
+    height: 650px;
   }
   .intro-container-about{
     color: white;
@@ -37,6 +37,7 @@
   .intro-container > img{
     width: 100%;
     height: fit-content;
+    box-shadow: 5px 10px 8px rgba(35, 35, 53, 0.518);
   }
   .intro-container-about > p{
     font-size: 3rem;

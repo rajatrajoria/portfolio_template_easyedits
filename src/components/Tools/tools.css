@@ -1,11 +1,11 @@
-/* @keyframes rotation {
+@keyframes rotation {
   from {
-    transform: rotate(0deg);
+    transform: rotate(-0.05turn);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(0.05turn);
   }
-} */
+}
 
 .tools-container{
     background-color: black;
@@ -46,7 +46,9 @@
     width: 100%;
     height: 100%;
     background-color: transparent;
-    /* animation: rotation 5s linear infinite; */
+    transform: rotate(0.25turn);
+    animation: rotation 2s linear infinite;
+    animation-direction: alternate;
   }
   .tools-container-cards-card > img:hover{
     opacity: 0.9;
