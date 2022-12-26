@@ -17,7 +17,7 @@ export default[
     },
     {
         name: "Javascript",
-        image:"https://i.imgur.com/naoh59d_d.webp?maxwidth=760&fidelity=grand"
+        image:"https://i.imgur.com/YSIsR8S.png"
     },
     {
         name: "HTML",

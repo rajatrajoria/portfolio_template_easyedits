@@ -1,17 +1,17 @@
 export default[
     {
-        image: "https://uploads-ssl.webflow.com/5eb98b2079b4fc247b5a89f3/5eb99a5c993b6c45ac06cc1c_Project%203-p-1600.jpeg",
-        name: "CoinView Mobile App Design",
-        detail: "Hellodbfiu edjkfvbfd sufvb wedjfbubvsd vusdbf vuwsdbf vehasbf vcueabs dcvuehiabs fxvcugohieabs fxvucghieankd zfxhvchoiakns xfhvcughoieaknd sfxhvcughoiakns fnxhvchoiaken sfxvcughoiknab sfxnvgchlkna"
+        image: "https://cdn.pixabay.com/photo/2019/12/27/08/36/coming-soon-hour-glass-4721933__480.png",
+        name: "Coming up soon",
+        detail: "Coming up soon"
     },
     {
-        image: "https://uploads-ssl.webflow.com/5eb98b2079b4fc247b5a89f3/5eb99a5c993b6c45ac06cc1c_Project%203-p-1600.jpeg",
-        name: "nksbd fd f aef",
-        detail: "Hellodbfiu edjkfvbfd sufvb wedjfbubvsd vusdbf vuwsdbf vehasbf vcueabs dcvuehiabs fxvcugohieabs sfxhvcughoiakns fnxhvchoiaken sfxvcughoiknab sfxnvgchlkna"
+        image: "https://cdn.pixabay.com/photo/2019/12/27/08/36/coming-soon-hour-glass-4721933__480.png",
+        name: "Coming up soon",
+        detail: "Coming up soon"
     },
     {
-        image: "https://uploads-ssl.webflow.com/5eb98b2079b4fc247b5a89f3/5eb99a5c993b6c45ac06cc1c_Project%203-p-1600.jpeg",
-        name: "vbrseusbf eubf dj",
-        detail: "Hellodbfiu edjkfvbfd sufvb wedjfbubvsd vusdbf vuwsdbf vehasbf vcueabs dcvuehiabs fxvcugohieabs fxvucghieankd zfxhvchoiakns xfhvcughoieaknd sfxhvcughoiakns fnxhvchoiaken sfxvcughoiknab sfxnvgchlkna"
+        image: "https://cdn.pixabay.com/photo/2019/12/27/08/36/coming-soon-hour-glass-4721933__480.png",
+        name: "Coming up soon",
+        detail: "Coming up soon"
     }
 ]

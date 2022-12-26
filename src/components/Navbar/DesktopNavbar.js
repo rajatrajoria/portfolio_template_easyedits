@@ -3,6 +3,11 @@ import './desktopnavbar.css';
 
 
 export default function DesktopNavbar(){
+
+    function handler(){
+        alert('We`ll be right back...');
+    }
+
     return(
         <div id="completenavbar">
             <div className="desktopnavbar-container">
@@ -16,7 +21,7 @@ export default function DesktopNavbar(){
                             <li><a href="#philosophy">Values</a></li>
                             <li><a href="#skillset">Skills</a></li>
                             <li><a href="#projects" >Projects</a></li>
-                            <li><a href="" className="desktopncch-contacts">Contact</a></li>
+                            <li><a className="desktopncch-contacts" onClick={handler}>Contact</a></li>
                         </ul>
                     </div>
                 </div>
