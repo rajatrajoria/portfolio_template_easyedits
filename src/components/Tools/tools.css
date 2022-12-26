@@ -38,6 +38,10 @@
     height: 100%;
     background-color: transparent;
   }
+  .tools-container-cards-card > img:hover{
+    opacity: 0.9;
+    cursor: pointer;
+  }
   
   .tools-container-cards::-webkit-scrollbar {
     display: none;

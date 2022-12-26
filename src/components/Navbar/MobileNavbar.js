@@ -7,7 +7,7 @@ export default function MobileNavbar(){
         setopen(item=>!item);
     }
     return(
-        <div>
+        <div id="completenavbar">
             <div className="mobilenavbar-container">
                 <div className="mobilenavbar-upper-container">
                     <div className="mobilenavbar-container-name">

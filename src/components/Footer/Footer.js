@@ -1,26 +1,34 @@
 import React from "react";
+import footerlinks from "../../data/footerlinks";
 import './footer.css';
 
 export default function Footer(){
+    function handler(){
+        var access = document.getElementById("completenavbar");
+        access.scrollIntoView();
+    }
+    const footerLinkElements = footerlinks.footlinks.map(item=>{
+        return(
+            <a href={item.link} target="_blank"><img src={item.image} href={item.link}/></a>
+        );
+    }) 
     return(
         <div className="footer-container">
             <div className="footer-container-upper">
-                <h2>Rajat R.</h2>
+                <h2>{footerlinks.footname}</h2>
                 <div className="footer-container-upper-icons">
-                    <img src="https://img.icons8.com/fluency/2x/instagram-new.png"/>
-                    <img src="https://img.icons8.com/fluency/2x/facebook-new.png"/>
-                    <img src="https://img.icons8.com/color/2x/twitter.png"/>
-                    <img src="https://img.icons8.com/color/2x/linkedin.png"/>
-                    <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/512/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png"/>
-                    <img src="https://img.icons8.com/color/2x/codechef.png"/>
-                    <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/512/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png"/> 
+                    {footerLinkElements}
                 </div>
             </div>
-            <div className="footer-container-lower">
-                <p>No copyright 2023</p>
-                <h4>Made with ❤️ by Rajat R.</h4>
+            <div className="footer-container-lower">    
+                <div className="footer-container-lower-text">
+                    <p>No copyright 2023</p>
+                    <h4>Made with ❤️ by Rajat R.</h4>
+                </div>
+                <div className="footer-container-lower-topbtn">
+                    <img onClick={handler} src="https://img.icons8.com/color/512/circled-up.png"/>
+                </div>
             </div>
-            <h5>Top</h5>
         </div>
     );
 }
