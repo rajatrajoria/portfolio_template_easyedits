@@ -1,7 +1,6 @@
 export default
 {
-    // image: "https://wallpaperaccess.com/full/708935.jpg",
-    image: "https://i.imgur.com/1tn0ufz.jpg",
+    image: "https://i.imgur.com/2T70EzB.jpg",
     fname: "Rajat",
     lname: "Rajoria",
     designation: "Software Developer",

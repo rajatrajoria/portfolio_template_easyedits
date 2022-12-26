@@ -22,7 +22,7 @@ export default function Footer(){
             </div>
             <div className="footer-container-lower">    
                 <div className="footer-container-lower-text">
-                    <p>No copyright 2023</p>
+                    <p>&#169; No copyright 2023</p>
                     <h4>Made with ❤️ by Rajat R.</h4>
                 </div>
                 <div className="footer-container-lower-topbtn">

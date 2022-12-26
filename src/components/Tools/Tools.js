@@ -14,7 +14,7 @@ export default function Tools(){
         <div className="tools-container">
             <div className="tools-container-cover">
                 <h4>TECHNICAL SKILLS</h4>
-                <h1>Some techs with which I have worked...</h1>
+                <h1>Some tools with which I have worked...</h1>
             </div>
             <div className="tools-container-cards">
                 {toolselement}

@@ -7,7 +7,7 @@ export default [
     {
         image: "https://cdn.pixabay.com/photo/2016/03/31/18/27/coding-1294373__480.png",
         name:"Competitive Programming",
-        detail:"I've been interested in CP since my first year of college. I've spent a significant amount of time honing my problem-solving abilities through CP and DSA. Check out my profiles. Link's on the page ;)"
+        detail:"I've been interested in CP since my first year of college. I've spent a significant amount of time honing my problem-solving abilities through CP and DSA. Link's on the page ;)"
     },
     {
         image: "https://cdn.pixabay.com/photo/2016/10/18/19/40/anatomy-1751201__480.png",

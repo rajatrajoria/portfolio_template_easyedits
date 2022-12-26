@@ -19,7 +19,7 @@ export default [
     id: 3,
     name: "Jadavpur University",
     startDate: 2020,
-    endDate: 2024,
+    endDate: "Present",
     course: "B.E in Information Technology",
     detail: "I'm currently in my pre-final year. The linear GPA over the four semesters is 9.39."
     }

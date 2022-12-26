@@ -17,8 +17,8 @@ export default function Education(){
     return(
         <div className="education-container" id="education">
             <div className="education-container-cover">
-                <h4> EDUCATION </h4>
-                <h1> Schools, I've attended in the past.</h1>
+                <h4>EDUCATION</h4>
+                <h1>Schools, I've attended in the past.</h1>
             </div>
             <div className="education-container-cards">
                 {educationElement}
