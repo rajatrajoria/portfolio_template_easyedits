@@ -4,7 +4,7 @@ export default {
         {
             name: "Instagram",
             image: "https://img.icons8.com/fluency/2x/instagram-new.png",
-            link: "https://www.instagram.com/anonyaura/"
+            link: "https://www.instagram.com/azido_azide_/"
         },
         {
             name: "Twitter",
