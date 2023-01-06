@@ -5,7 +5,7 @@ import projects from "../../data/projects"
 export default function Projects(){
     const projectElement = projects.map(element=>{
         return(
-            <div className="project-card">
+            <div className="project-card" onClick={()=>{window.open(element.link)}}>
                 <img src={element.image}/>
                 <h3>{element.name}</h3>
                 <p>{element.detail}</p>

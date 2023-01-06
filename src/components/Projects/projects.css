@@ -31,11 +31,17 @@
     background-color: #181823;
     border-radius: 30px;
   }
+
+  .project-card :hover{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
   .project-card > img{
     width: 100%;
     display: flex;
     margin-bottom: 10px;
-    max-height: 250px;
+    height: 230px;
     border-top-left-radius:  30px;
     border-top-right-radius: 30px;
   }
