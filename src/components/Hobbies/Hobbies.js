@@ -34,7 +34,7 @@ export default function Education(){
         <div className="hobbies-container">
             <div className="hobbies-container-cover">
                 <h4> HOBBIES </h4>
-                <h1> Some of the activities which I like are...</h1>
+                <h1> Activities I like...</h1>
             </div>
             <div className="hobbies-container-full">
                 {hobbiesElement}
