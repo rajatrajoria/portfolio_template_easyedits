@@ -1,6 +1,8 @@
 export default
 {
     image: "https://i.imgur.com/2T70EzB.jpg",
+    image: "https://i.imgur.com/MhUUX8o.jpg",
+    image: "https://i.imgur.com/6pgXARI_d.webp?maxwidth=1520&fidelity=grand",
     fname: "Rajat",
     lname: "Rajoria",
     designation: "Software Developer",
