@@ -7,7 +7,7 @@ export default function Projects(){
         return(
             <div className="project-card" onClick={()=>{window.open(element.link)}}>
                 <img src={element.image}/>
-                <h3>{element.name}</h3>
+                <h3><u>{element.name}</u></h3>
                 <p>{element.detail}</p>
             </div>
         );
