@@ -3,12 +3,6 @@ import './desktopnavbar.css';
 
 
 export default function DesktopNavbar(){
-
-    function handler(){
-        var a = window.open("https://i.giphy.com/media/3o6Ztc6didoWNy3zW0/giphy.webp");
-        setTimeout(function () { a.close() }, 1500);
-    }
-
     return(
         <div id="completenavbar">
             <div className="desktopnavbar-container">
@@ -22,7 +16,7 @@ export default function DesktopNavbar(){
                             <li><a href="#philosophy">Values</a></li>
                             <li><a href="#skillset">Skills</a></li>
                             <li><a href="#projects" >Projects</a></li>
-                            <li><a className="desktopncch-contacts" onClick={handler}>Contact</a></li>
+                            <li><a className="desktopncch-contacts">Contact</a></li>
                         </ul>
                     </div>
                 </div>
