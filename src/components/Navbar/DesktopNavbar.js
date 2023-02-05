@@ -16,7 +16,7 @@ export default function DesktopNavbar(){
                             <li><a href="#philosophy">Values</a></li>
                             <li><a href="#skillset">Skills</a></li>
                             <li><a href="#projects" >Projects</a></li>
-                            <li><a className="desktopncch-contacts">Contact</a></li>
+                            <li><a className="desktopncch-contacts" href="mailto:rajatrajoria.ju@gmail.com">Contact</a></li>
                         </ul>
                     </div>
                 </div>
