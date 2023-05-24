@@ -59,7 +59,7 @@
   background-color: #21076e
 }
 
-@media only screen and (max-width: 915px){
+@media only screen and (max-width: 1020px){
   .desktopnavbar-container{
     display: none;
   }

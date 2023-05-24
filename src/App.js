@@ -8,6 +8,7 @@ import Projects from "./components/Projects/Projects"
 import Hobbies from "./components/Hobbies/Hobbies"
 import Tools from "./components/Tools/Tools"
 import Footer from "./components/Footer/Footer"
+import Experiences from "./components/Experiences/Experiences"
 
 export default function App(){
     return(
@@ -17,7 +18,8 @@ export default function App(){
             <Education/>
             <Philosophy/>
             <Skillset/>
-            <Tools/>    
+            <Tools/> 
+            <Experiences/>   
             <Projects/>
             <Hobbies/>
             <Footer/>

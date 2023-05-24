@@ -1,23 +1,23 @@
-.projects-container{
+.xp-container{
     min-height: 100vh;
     background-color: black;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
   }
   
-  .projects-container-cover > h4{
+  .xp-container-cover > h4{
     color: gray;
     letter-spacing: 8px;
     margin-left: 4rem;
     padding-top: 100px;
   }
   
-  .projects-container-cover > h1{
+  .xp-container-cover > h1{
     color: white;
     margin-left: 4rem;
     font-family: 'Space Mono', monospace;
   }
   
-  .projects-container-cards{
+  .xp-container-cards{
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
@@ -26,18 +26,13 @@
     justify-content: flex-start;
     margin-top: 20px;
   }
-  .project-card{
+  .xp-card{
     width: 25vw;
     background-color: #181823;
     border-radius: 30px;
   }
 
-  .project-card :hover{
-    cursor: pointer;
-    opacity: 0.5;
-  }
-
-  .project-card > img{
+  .xp-card > img{
     width: 100%;
     display: flex;
     margin-bottom: 10px;
@@ -45,7 +40,7 @@
     border-top-left-radius:  30px;
     border-top-right-radius: 30px;
   }
-  .project-card > h3{
+  .xp-card > h3, .xp-card > h5{
     color: white;
     text-align: center;
     margin-bottom: 5px;
@@ -56,11 +51,15 @@
     letter-spacing: 2px;
   }
 
-  .project-card > h3 > u{
+  .xp-card > h5{
+    line-height: 10px;
+  }
+
+  .xp-card > h3 > u{
     text-decoration: none;
   }
 
-  .project-card > p{
+  .xp-card > p{
     color: #b7b7bb;
     font-family: 'Abel', sans-serif;
     font-weight: 200;
@@ -70,25 +69,25 @@
   }
   
   @media only screen and (max-width: 915px){
-    .projects-container{
+    .xp-container{
       min-height: 100vh;
-      background-color: black;
-      padding-bottom: 20px;
       margin-top: 10px;
+      background-color: black;
+      padding-bottom: 0px;
     }
     
-    .projects-container-cover > h4{
+    .xp-container-cover > h4{
       letter-spacing: 8px;
       margin-left: 2rem;
       padding-top:  60px;
     }
     
-    .projects-container-cover > h1{
+    .xp-container-cover > h1{
       margin-left: 2rem;
       padding-bottom: 20px;
     }
     
-    .projects-container-cards{
+    .xp-container-cards{
       flex-wrap: nowrap;
       gap: 35px;
       margin: 0;
@@ -98,27 +97,29 @@
       padding-bottom: 80px;
       overflow-x: auto;
     }
-    .projects-container-cards::-webkit-scrollbar {
+    .xp-container-cards::-webkit-scrollbar {
       display: none;
     }
-    .project-card{
+    .xp-card{
       min-width: 85vw;
       min-height: 60vh;
     }
-    .project-card > img{
+    .xp-card > img{
       width: 100%;
       max-height: 250px;
       display: flex;
       margin-bottom: 10px;
     }
-    .project-card > h3{
+    .xp-card > h3{
       color: white;
       text-align: center;
       margin-bottom: 5px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    .project-card > p{
+
+    .xp-card > p{
       color: #b7b7bb;
+      margin-top: 10px;
       font-weight: 300;
       padding-bottom: 10px;
       line-height: 1.5rem;

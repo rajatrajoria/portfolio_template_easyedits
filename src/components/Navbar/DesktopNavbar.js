@@ -15,6 +15,7 @@ export default function DesktopNavbar(){
                             <li><a href="#education">Education</a></li>
                             <li><a href="#philosophy">Values</a></li>
                             <li><a href="#skillset">Skills</a></li>
+                            <li><a href="#xp">Experiences</a></li>
                             <li><a href="#projects" >Projects</a></li>
                             <li><a className="desktopncch-contacts" href="mailto:rajatrajoria.ju@gmail.com">Contact</a></li>
                         </ul>

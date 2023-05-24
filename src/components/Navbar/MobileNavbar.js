@@ -26,6 +26,7 @@ export default function MobileNavbar(){
                         <li><a onClick={handler} href="#education">Education</a></li>
                         <li><a onClick={handler} href="#philosophy">Values</a></li>
                         <li><a onClick={handler} href="#skillset">Skills</a></li>
+                        <li><a onClick={handler} href="#xp">Experiences</a></li>
                         <li><a onClick={handler} href="#projects" >Projects</a></li>
                         <li><a onClick={handlerPlusAlert} href="" className="ncch-contacts">Contact</a></li>
                     </ul>
